@@ -38,3 +38,8 @@
 - GET request
 - Read CRUD action
 
+### Update:
+- Updates an instance in the database
+- PATCH or PUT request
+- Update CRUD action
+
