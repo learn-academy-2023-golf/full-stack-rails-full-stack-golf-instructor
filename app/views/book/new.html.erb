@@ -1,0 +1,9 @@
+<h2>Add a new book:</h2>
+
+<%= form_with model: @book do |form|%>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.label :read %>
+  <%= form.check_box :read %>
+  <%= form.submit "Add Book" %>
+<% end %>

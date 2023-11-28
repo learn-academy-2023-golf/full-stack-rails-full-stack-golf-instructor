@@ -16,3 +16,9 @@
 - Displays one item from the database
 - GET request
 - Read CRUD action
+
+
+### New:
+- Displays a form
+- GET request
+- Read CRUD action
