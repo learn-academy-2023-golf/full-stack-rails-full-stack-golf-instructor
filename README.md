@@ -1,24 +1,14 @@
-# README
+# Full Stack Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## RESTful Routes
+### Index:
+  - lists all the instances 
+  - GET request
+  - Read CRUD action
 
-Things you may want to cover:
+- Controller method: holds active record query
+- Route: defines the url and calls the index method
+- View: iterated over Active Record array
+- added HTML for markup structure
+- used dot notation to access the attribute to display
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
