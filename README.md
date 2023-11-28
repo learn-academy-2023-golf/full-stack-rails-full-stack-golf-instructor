@@ -22,3 +22,9 @@
 - Displays a form
 - GET request
 - Read CRUD action
+
+### Create:
+- Adds content from the form to the database
+- POST Request
+- Create CRUD action
+
