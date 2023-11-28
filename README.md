@@ -28,3 +28,18 @@
 - POST Request
 - Create CRUD action
 
+### Destroy
+- Removes an instance
+- Delete request
+- Delete CRUD action
+
+### Edit
+- Displays a form
+- GET request
+- Read CRUD action
+
+### Update:
+- Updates an instance in the database
+- PATCH or PUT request
+- Update CRUD action
+
