@@ -28,3 +28,13 @@
 - POST Request
 - Create CRUD action
 
+### Destroy
+- Removes an instance
+- Delete request
+- Delete CRUD action
+
+### Edit
+- Displays a form
+- GET request
+- Read CRUD action
+
