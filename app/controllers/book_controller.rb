@@ -10,4 +10,16 @@ class BookController < ApplicationController
   def new 
     @book = Book.new
   end
+
+  def create 
+    @book = Book.create(book_params)
+    if @book.valid? 
+      redirect_to books_path
+    end
+  end
+
+  private
+  def book_params
+    params.require(:book).permit(:name, :read)
+  end
 end
