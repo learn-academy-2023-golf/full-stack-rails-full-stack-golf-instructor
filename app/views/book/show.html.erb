@@ -1,0 +1,7 @@
+<% if @book.read? %>
+  <h3>I have read <%= @book.name %></h3>
+<% else %>
+  <h3>I have not read <%= @book.name %></h3>
+<% end %>
+
+<p><%= link_to 'All the books', books_path %></p>

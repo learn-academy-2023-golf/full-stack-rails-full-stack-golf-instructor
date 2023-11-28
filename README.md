@@ -12,3 +12,7 @@
 - added HTML for markup structure
 - used dot notation to access the attribute to display
 
+### Show:
+- Displays one item from the database
+- GET request
+- Read CRUD action
